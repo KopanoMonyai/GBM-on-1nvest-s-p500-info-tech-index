@@ -46,6 +46,9 @@ dW(t) infinitesimal increment of a standard Brownian Motion/Wiener Process
 
 <img width="1187" height="290" alt="download (6)" src="https://github.com/user-attachments/assets/f040c4c2-679f-49d8-9617-babbbe8f7825" />
 
+# Hypothesis Test on Returns
+The Shapiro-Wilk test is a statistical test that checks if a sample of data comes from a normally distributed population
+
 
 
 
