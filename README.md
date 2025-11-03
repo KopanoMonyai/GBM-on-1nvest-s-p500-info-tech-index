@@ -28,15 +28,15 @@ dW(t) infinitesimal increment of a standard Brownian Motion/Wiener Process
 
 # Call:
 
-    ticker = 'AMD'
+    ticker = 'ETF5IT.JO'
     start = "2023-01-01"
     end = "2025-01-01"
     df = yf.download(tickers= ticker,start=start, end=end)
     
     Output
-        tmp/ipython-input-496447581.py:1: FutureWarning: YF.download() has changed argument auto_adjust default to True
-        df = yf.download(tickers='AMD',start= "1980-01-01")
-        [*********************100%***********************]  1 of 1 completed.
+        /tmp/ipython-input-433252377.py:9: FutureWarning: YF.download() has changed argument auto_adjust default to True
+          df = yf.download(tickers= ticker,start=start, end=end)
+        [*********************100%***********************]  1 of 1 completed
 
 
 
