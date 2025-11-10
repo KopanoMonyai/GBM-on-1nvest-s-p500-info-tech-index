@@ -58,7 +58,7 @@ Depending upon the number of simulated paths, the converge to the actual price a
 taking the average of those sample paths
 <img width="996" height="316" alt="image" src="https://github.com/user-attachments/assets/7c9fcab5-fb20-412d-9180-0c1191e3f4c2" />
 
-Taking a thousand sample paths, we observe a percentage error of -3.3976252208672073 with a scaling volatility factor of 2.5, suggest that the model on average over-estimates the price: 
+Taking a thousand sample paths, we observe a average percentage error of -3.397625 with a scaling volatility factor of 2.5, suggest that the model on average over-estimates the price: 
 
 Price = 35.56 
 
