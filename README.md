@@ -1,17 +1,17 @@
 # 1. Exploratory analysis
 
-# 1.1) Visualising Closing Prices.
+# Closing Prices.
 <img width="996" height="316" alt="download (8)" src="https://github.com/user-attachments/assets/f8caaba9-d92b-455d-a58c-44bfc6e2007e" />
 
-# 1.2) Returns.
+# Returns.
 
 <img width="1024" height="316" alt="download (3)" src="https://github.com/user-attachments/assets/99c9e674-759c-41e3-a172-92cad2137a92" />
 
-# 1.3) Volatility.
+# Volatility.
 
 <img width="1187" height="290" alt="download (6)" src="https://github.com/user-attachments/assets/f040c4c2-679f-49d8-9617-babbbe8f7825" />
 
-# 2) Geometric Brownian Motion
+# Geometric Brownian Motion
 
 The Geometric Brownian Motion (GBM) is a continuous-time stochastic process in which the logarithm of the randomly varying quantity follows a Brownian motion (also called a Wiener process) with drift. This method is used to model stock prices in the Black–Scholes model and is the most widely used model of stock price behavior.
 
@@ -50,15 +50,16 @@ dW(t) infinitesimal increment of a standard Brownian Motion/Wiener Process
     simulate_gbm(S0, mu, sigma, T, N, num_simulations)
     <img width="997" height="316" alt="download (9)" src="https://github.com/user-attachments/assets/ccad58c6-0006-4411-b872-d71cb44c5c1c" />
 
-Depending upon the number of simulated paths the more accurate the solution
+Depending upon the number of simulated paths, the converge to the actual price and the more accurate the model.
 
 
-# 1.Estamating New Price
-Taking a thousand sample paths with a percentage error of 26.94038245219348
+# Estamating New Price
 <img width="997" height="316" alt="download (7)" src="https://github.com/user-attachments/assets/41bd253f-df90-414d-9eef-e917fcad88cb" />
 taking the average of those sample paths
 <img width="996" height="316" alt="image" src="https://github.com/user-attachments/assets/7ed86da4-0c9b-4aee-8809-aadc386de4fe" />
-
+Taking a thousand sample paths, we observe a percentage error of -3.3976252208672073 with a scaling volatility factor of 2.5, suggest that the model on average over-estimates the price: 
+Price = 35.56 
+Predicted Price = 34.28
 
 
 
