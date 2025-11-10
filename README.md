@@ -50,19 +50,20 @@ dW(t) infinitesimal increment of a standard Brownian Motion/Wiener Process
     simulate_gbm(S0, mu, sigma, T, N, num_simulations)
 <img width="997" height="316" alt="download (9)" src="https://github.com/user-attachments/assets/ccad58c6-0006-4411-b872-d71cb44c5c1c" />
 
-Depending upon the number of simulated paths, the converge to the actual price and the more accurate the model.
+Depending upon the number of simulated paths, the converge estimation to the actual price.
 
 
-# Estamating New Price
+# Estamating old Price
+
 <img width="997" height="316" alt="download (7)" src="https://github.com/user-attachments/assets/41bd253f-df90-414d-9eef-e917fcad88cb" />
-taking the average of those sample paths
+
 <img width="996" height="316" alt="image" src="https://github.com/user-attachments/assets/7c9fcab5-fb20-412d-9180-0c1191e3f4c2" />
 
-Taking a thousand sample paths, we observe a average percentage error of -3.397625 with a scaling volatility factor of 2.5, suggest that the model on average over-estimates the price: 
+Taking an average of the thousand sample paths, we observe an average percentage error of -3.397625 with a scaled volatility factor of 2.5, suggest that the model on average over-estimates the price: 
 
-Price = 35.56 
-
-Predicted Price = 34.28
+# Estimating New Price
+<img width="1005" height="316" alt="image" src="https://github.com/user-attachments/assets/51fb6ed7-f97e-460e-8ce4-cab9f190aae7" />
+Taking another sample path over the next 5 years, where each step is an averaged approximation and assuming constant volatility.
 
 
 
