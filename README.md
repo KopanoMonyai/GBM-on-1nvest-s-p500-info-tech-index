@@ -60,11 +60,25 @@ Depending upon the number of simulated paths, the converge estimation to the act
 <img width="996" height="316" alt="image" src="https://github.com/user-attachments/assets/7c9fcab5-fb20-412d-9180-0c1191e3f4c2" />
 
 Taking an average of the thousand sample paths, we observe an average percentage error of -3.397625 with a scaled volatility factor of 2.5, suggest that the model on average over-estimates the price: 
+  
+                                    Close	Estimate
+    2020-11-12 00:00:00+02:00	11.808510	11.80851
+    2021-11-12 00:00:00+02:00	16.026600	14.31000
+    2022-11-12 00:00:00+02:00	14.334960	17.08000
+    2023-11-12 00:00:00+02:00	21.463999	22.04000
+    2024-11-12 00:00:00+02:00	30.010000	27.04000
+    2025-11-12 00:00:00+02:00	36.020000	34.26000
 
-# Estimating New Price
+
+# Estimating New Prices
 <img width="1005" height="316" alt="image" src="https://github.com/user-attachments/assets/51fb6ed7-f97e-460e-8ce4-cab9f190aae7" />
 Taking another sample path over the next 5 years, where each step is an averaged approximation and assuming constant volatility.
 
+    Year	
+    2025	36.75
+    2026	46.20
+    2027	57.93
+    2028	72.61
 
 
 
