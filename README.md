@@ -17,12 +17,6 @@ $\sigma$ is the volatility
 $W_t$ is a (standard) Brownian motion.
 
 
-<img width="996" height="316" alt="download (8)" src="https://github.com/user-attachments/assets/f8caaba9-d92b-455d-a58c-44bfc6e2007e" />
-
-<img width="1187" height="290" alt="download (6)" src="https://github.com/user-attachments/assets/f040c4c2-679f-49d8-9617-babbbe8f7825" />
-
-<img width="1024" height="316" alt="download (3)" src="https://github.com/user-attachments/assets/99c9e674-759c-41e3-a172-92cad2137a92" />
-
 # Positional Arguments
 
     ticker = Ticker symbol for the stock
@@ -52,11 +46,11 @@ Taking an average of the thousand sample paths, we observe an average percentage
 <img width="996" height="316" alt="download (7)" src="https://github.com/user-attachments/assets/dc82e81a-93fc-4f3e-aad2-39120225c058" />
 
   
-                                        Close	Estimate	Error
+                                        Close	Estimate	Abs Error
         2020-11-12 00:00:00+02:00	11.808510	11.80851	0.000000
         2021-11-12 00:00:00+02:00	16.026600	14.31000	0.107109
-        2022-11-12 00:00:00+02:00	14.334960	17.08000	-0.191493
-        2023-11-12 00:00:00+02:00	21.463999	22.04000	-0.026836
+        2022-11-12 00:00:00+02:00	14.334960	17.08000	0.191493
+        2023-11-12 00:00:00+02:00	21.463999	22.04000	0.026836
         2024-11-12 00:00:00+02:00	30.010000	27.04000	0.098967
         2025-11-12 00:00:00+02:00	36.020000	34.26000	0.048862
 
@@ -64,7 +58,6 @@ Taking an average of the thousand sample paths, we observe an average percentage
 # Estimating Of New Prices
 Taking another sample path over the next 5 years, where each step is an averaged approximation while assuming constant volatility.
 
-<img width="1005" height="316" alt="image" src="https://github.com/user-attachments/assets/51fb6ed7-f97e-460e-8ce4-cab9f190aae7" />
     
                 0	Error
     Year		
