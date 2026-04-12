@@ -4,19 +4,18 @@ The Geometric Brownian Motion (GBM) is a continuous-time stochastic process in w
 
 The Geometric Brownian Motion equation is represented as:
 
-<img width="710" height="77" alt="image" src="https://github.com/user-attachments/assets/3fd1383f-429a-4140-8850-6a01e65ccc75" />
+$\large{S_t = S_0 \ e^{\big(\mu - \frac{\sigma^2}{2}\big) t + \sigma W_t}}$
 
-Where:
+where:
 
-dS(t) infinitesimal increment in price
+$S_0$ is the initial value
 
-dW(t) infinitesimal increment of a standard Brownian Motion/Wiener Process
+$\mu$ is a drift coefficient
 
-S(t) is the price of a security/portfolio at time t
+$\sigma$ is the volatility
 
-σ is the volatility of the security’s price
+$W_t$ is a (standard) Brownian motion.
 
-µ is mean return (per unit time)
 
 <img width="996" height="316" alt="download (8)" src="https://github.com/user-attachments/assets/f8caaba9-d92b-455d-a58c-44bfc6e2007e" />
 
